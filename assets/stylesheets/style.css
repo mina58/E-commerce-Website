@@ -9,11 +9,11 @@
     font-family: Poppins;
 }
 
-#indexBody{
+.indexBody{
     background-color: rgb(247,245,238);
 }
 
-header{
+.indexHeader{
     background-color: rgb(247,245,238);
     display: flex;
     align-items: center;
@@ -30,7 +30,7 @@ header{
 .menu{
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 60%;
     align-items: center;
 }
 
@@ -60,7 +60,7 @@ header{
     color: rgb(197, 193, 193);
 }
 
-main{
+.indexMain{
     background-color: rgb(247,245,238);
     min-width: 80%;
     display: flex;
@@ -131,11 +131,6 @@ main{
     font-weight: 200;
 }
 
-.aboutContainer{
-    inline-size: 100%;
-    display: grid;
-    grid-auto-flow: column;
-}
 
 .AboutContainer{
     background-color: rgb(97,96,87);
@@ -153,7 +148,7 @@ main{
     margin-bottom: 50px;
 }
 
-.center{
+.jcenter{
     width: 40%;
 }
 
@@ -239,7 +234,7 @@ main{
     margin-top: 10px;
 }
 
-footer{
+.indexFooter{
     margin: 50px 0px;
     background-color: rgb(247,245,238);
     display: flex;
@@ -248,7 +243,7 @@ footer{
     flex-direction: column;
 }
 
-footer h2, h4{
+.indexFooter h2, h4{
     font-weight: 300;
 }
 
@@ -434,3 +429,38 @@ footer h2, h4{
 .imar{
     margin-top: 75px;
 }
+
+.about{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 60px;
+    width: 50%;
+    height: 600px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-bottom: 50px;
+    background-color: #f1ebdd;
+    color: rgb(97, 96, 87);
+}
+
+.about h1{
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.aboutI img{
+    width: 80.5%;
+    align-items: center;
+    margin-top: 60px;
+    margin-left: 40px;
+
+}
+
+#aboutBody{
+    background-color: rgb(247,245,238);
+}
+
