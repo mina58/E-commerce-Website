@@ -5,63 +5,55 @@ let products =[
         name: 'Shoes',
         tag: 'shoes1',
         price: 90,
-        count: 0,
+        count: 0
     },
     {
         name: 'Glasses',
         tag: 'glasses1',
         price: 225,
-        count: 0,
-        gender: '1'
+        count: 0
     },
     {
         name: 'Hoodie' ,
         tag: 'hoodie1',
         price: 100,
-        count: 0,
-        gender: '1'
+        count: 0
     },
     {
         name: 'Watch',
         tag: 'watch',
         price: 150,
-        count: 0,
-        gender: '1'
+        count: 0
     },
     {
         name: 'Plant',
         tag: 'plant1',
         price: 85,
-        count: 0,
-        gender: '0'
+        count: 0
     },
     {
         name: 'Frame',
         tag: 'frame1',
         price: 75,
-        count: 0,
-        gender: '0'
+        count: 0
     },
     {
         name: 'Perfume',
         tag: 'perfume1',
         price: 285,
-        count: 0,
-        gender: '0'
+        count: 0
     },
     {
         name: 'Scarf',
         tag: 'scarf1',
         price: 165,
-        count: 0,
-        gender: '0'
+        count: 0
     },
     {
         name: 'Lamp',
         tag: 'lamp1',
         price: 235,
-        count: 0,
-        gender: '0'
+        count: 0
     }
 ]
 
