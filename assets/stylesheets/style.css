@@ -89,7 +89,7 @@ div ul li .black:hover{
 .userBar{
     pointer-events: none;
     position: absolute;
-    left: 78%;
+    left: 72%;
     top: 4.4rem;
     z-index: 888;
     width: 200px;
