@@ -189,3 +189,124 @@ ul li{
     color: white;
     font-weight: bold;
 }
+
+.form-section{
+    float: right;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    margin-top: 2.5em;
+}
+
+.form-section div{
+    margin: 1em;
+}
+
+.form-section div label{
+    font-size: 1.5em;
+}
+
+.form-section div input{
+    height: 2em;
+    float: right;
+    margin-left: 0.5em;
+}
+
+.form-section button{
+    margin: 1em;
+    height: 2em;
+    width: 8em;
+    font-size: 12pt;
+}
+
+.form-section form input[type=checkbox]{
+    display: none;
+}
+
+.colors{
+    display: flex;
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+.colors label{
+    margin: 4px;
+    width: 28px;
+    height: 28px;
+    border: 1px silver solid;
+    border-radius: 50%;
+}
+
+.colors input[type=checkbox]:checked + label{
+    /*opacity: 120%;*/
+    border: 4px #b9a123 solid;
+    transition: ease-in 0.1s;
+}
+
+#red-lable{
+    background-color: red;
+}
+
+#orange-lable{
+    background-color: orange;
+}
+
+#yellow-lable{
+    background-color: yellow;
+}
+
+#green-lable{
+    background-color: green;
+}
+
+#blue-lable{
+    background-color: blue;
+}
+
+#cyan-lable{
+    background-color: cyan;
+}
+
+#purple-lable{
+    background-color: purple;
+}
+
+#white-lable{
+    background-color: white;
+}
+
+#grey-lable{
+    background-color: gray;
+}
+
+#black-lable{
+    background-color: black;
+}
+
+.sizes{
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.sizes label{
+    margin: 4px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px black solid;
+    text-align: center;
+    /*font-size: 4em;*/
+}
+
+.sizes input[type=checkbox]:checked + label{
+    background-color: #b0afaf;
+    transition: ease-in 0.1s;
+}
+
+.form-section textarea{
+    float: right;
+}
+
+

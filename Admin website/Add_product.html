@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add product</title>
+    <link rel="stylesheet" href="assets/css/seif.css">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,200&family=Recursive:wght@300&family=Roboto:wght@300&family=Tillana:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/stylesheets/stylePhone.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,200&family=Recursive:wght@300&family=Roboto:wght@300&family=Tillana:wght@600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<header class="sheader" >
+    <div class="stitle fpoppins">
+        E-Commerce
+    </div>
+    <div class="menuRight">
+        <a class="list1 fpoppins" href="/shop.html"> Shop</a>
+        <a href="/login.html"><i class="fa fa-user-circle" aria-hidden="true"></i></a>
+    </div>
+</header>
+
+<section class="lmain">
+
+    <ul>
+        <li><a class="list2 fpoppins selected" href="Add_product.html">Add</a></li>
+        <li><a class="list2 fpoppins" href="Remove_product.html">Remove</a></li>
+    </ul>
+
+</section>
+
+<section class="form-section fpoppins">
+    <form>
+        <div>
+            <label for="name">Name: </label>
+            <input name="name" type="text" id="name">
+        </div>
+
+        <div>
+            <label for="price">Price: </label>
+            <input name="price" id="price" type="text" min="0">
+        </div>
+
+        <div>
+            <label >Colors: </label><br>
+            <div class="colors">
+                <input name="red" id="red-check" type="checkbox" value="red">
+                <label for="red-check" id="red-lable"></label>
+                <input name="orange" id="orange-check" type="checkbox" value="orange">
+                <label for="orange-check" id="orange-lable"></label>
+                <input name="yellow" id="yellow-check" type="checkbox" value="yellow">
+                <label for="yellow-check" id="yellow-lable"></label>
+                <input name="green" id="green-check" type="checkbox" value="green">
+                <label for="green-check" id="green-lable"></label>
+                <input name="blue" id="blue-check" type="checkbox" value="blue">
+                <label for="blue-check" id="blue-lable"></label>
+                <input name="cyan" id="cyan-check" type="checkbox" value="cyan">
+                <label for="cyan-check" id="cyan-lable"></label>
+                <input name="purple" id="purple-check" type="checkbox" value="purple">
+                <label for="purple-check" id="purple-lable"></label>
+                <input name="white" id="white-check" type="checkbox" value="white">
+                <label for="white-check" id="white-lable"></label>
+                <input name="grey" id="grey-check" type="checkbox" value="grey">
+                <label for="grey-check" id="grey-lable"></label>
+                <input name="black" id="black-check" type="checkbox" value="black">
+                <label for="black-check" id="black-lable"></label>
+            </div>
+        </div>
+
+        <div>
+            <label >Sizes: </label><br>
+            <div class="sizes">
+                <input name="small" id="small" type="checkbox" value="small">
+                <label for="small" id="small-lable">S</label>
+                <input name="medium" id="medium" type="checkbox" value="medium">
+                <label for="medium" id="medium-lable">M</label>
+                <input name="large" id="large" type="checkbox" value="large">
+                <label for="large" id="large-lable">L</label>
+                <input name="xlarge" id="xlarge" type="checkbox" value="xlarge">
+                <label for="xlarge" id="xlarge-lable">XL</label>
+            </div>
+        </div>
+
+
+        <div>
+            <label for="stock">Stock: </label>
+            <input name="stock" type="number" id="stock">
+        </div>
+
+        <div>
+            <label for="desc">Description: </label>
+            <textarea id="desc"></textarea>
+        </div>
+
+        <div>
+            <label for="img">Image: </label>
+            <input name="img" id="img" type="image">
+        </div>
+
+        <button type="submit">submit</button>
+
+    </form>
+</section>
+
+
+</body>
+</html>
