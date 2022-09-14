@@ -191,13 +191,17 @@ ul li{
 }
 
 .form-section{
-    float: right;
-    width: 80%;
-    height: 100%;
+    /*float: right;*/
+    width: 500px;
+    height: 800px;
     display: flex;
     margin-top: 2.5em;
 }
 
+#addhero{
+    display: flex;
+    flex-direction: row;
+}
 .form-section div{
     margin: 1em;
 }
